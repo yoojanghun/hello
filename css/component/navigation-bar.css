@@ -1,6 +1,6 @@
 .nav-bar{
     background-color: #f9f9fa;
-    padding: 20px 40px;
+    padding: 20px 50px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -11,4 +11,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0px 30px;
+}
+.nav-bar__item{
+    color: #2e363e;
 }
