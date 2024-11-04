@@ -27,7 +27,7 @@
     margin-bottom: 25px;
 }
 .login-form input:required{
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: var(--border);
     transition: border-color 0.3s ease-in-out;
 }
 .login-form input:focus{
@@ -45,8 +45,6 @@
 }
 
 .login-form a{
-    color: inherit;
     text-align: center;
-    text-decoration: none;
     font-size: 13px;
 }
