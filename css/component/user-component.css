@@ -1,0 +1,27 @@
+/* .user-component--sm{
+    width: ;
+    height: ;
+}
+.user-component--xlg{
+    width: ;
+    height: ;
+    } */
+    .user-component,
+    .user-component__column{
+        display: flex;
+        align-items: center;
+    }
+    .user-component{
+        justify-content: space-between;
+    }
+    
+    .user-component__title{
+        font-size: 22px;
+        font-weight: 500;
+        margin-left: 25px;
+    }
+    .user-component--lg{
+        width: 70px;
+        height: 70px;
+        border-radius: 27px;
+    }
