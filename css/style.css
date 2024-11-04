@@ -10,9 +10,11 @@
 
 /*screen*/
 @import "screen/login.css";
+@import "screen/friends.css";
 
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #2e363e;
 }
