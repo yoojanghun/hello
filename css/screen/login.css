@@ -1,3 +1,4 @@
+/*index header part*/
 .welcome-header{
     margin: 90px 0px;
     display: flex;
@@ -11,4 +12,41 @@
 .welcome-header__text{
     width: 60%;
     opacity: 0.7;
+}
+
+/*index form part*/
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.login-form input{
+    border: none;
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-bottom: 25px;
+}
+.login-form input:required{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+.login-form input:focus{
+    border-color: var(--yellow);
+}
+.login-form input:not(:required){
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+.login-form input::placeholder{
+    opacity: 0.6;
+}
+
+.login-form a{
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
 }

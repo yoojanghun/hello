@@ -347,3 +347,6 @@
   [hidden] {
     display: none;
   }
+  input{
+    outline: none;
+  }
