@@ -1,8 +1,4 @@
-.nav-bar__item:nth-child(2){
-    position: relative;
-}
-
-.nav-notification{
+.badge{
     background-color: tomato;
     color: white;
     display: block;
@@ -12,7 +8,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    right: -10px;
-    top: -5px;
 }

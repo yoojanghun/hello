@@ -5,7 +5,7 @@
 /*component*/
 @import "component/status-bar.css";
 @import "component/navigation-bar.css";
-@import "component/nav-notification.css";
+@import "component/badge.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
 
@@ -18,4 +18,8 @@ body{
     font-weight: 400;
     font-style: normal;
     color: #2e363e;
+}
+
+.main-screen{
+    margin: 0px var(--horizontal-space);
 }

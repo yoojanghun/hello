@@ -15,3 +15,13 @@
 .nav-bar__item{
     color: #2e363e;
 }
+
+.nav-bar__item:nth-child(2){
+    position: relative;
+}
+
+.nav-notification{
+    position: absolute;
+    right: -10px;
+    top: -5px;
+}
