@@ -16,6 +16,7 @@
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/settings.css";
 
 body{
     font-family: "Roboto", sans-serif;

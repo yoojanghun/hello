@@ -1,0 +1,13 @@
+.settings__setting{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.settings__setting i {
+    font-size: 22px;
+    opacity: 0.8;
+    margin-right: 20px;
+}

@@ -1,0 +1,16 @@
+.alt-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px var(--horizontal-space);
+    margin-bottom: 15px;
+}
+
+.alt-header__column:first-child{
+    flex: 1;
+}
+.alt-header__column:last-child{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
