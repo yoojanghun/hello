@@ -20,8 +20,45 @@
     position: relative;
 }
 
+/*animation*/
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes appearBtnAnimation {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
 .nav-notification{
     position: absolute;
     right: -10px;
     top: -5px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
+
+.nav-bar__item{
+    transform: translateY(60px);
+    animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+.nav-bar__item:nth-child(2){
+    animation-delay: 0.3s;
+}
+.nav-bar__item:nth-child(3){
+    animation-delay: 0.5s;
+}
+.nav-bar__item:nth-child(4){
+    animation-delay: 0.7s;       
+}
+/*animation-delay는 처음 상태에서 머무는 시간을 정의한 것 같다.*/
